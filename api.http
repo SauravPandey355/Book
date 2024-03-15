@@ -1,0 +1,24 @@
+GET http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+
+###
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json 
+
+{
+    "title":"Oyyee"
+}
+
+###
+PUT http://localhost:3001/books/f0c5 HTTP/1.1
+Content-Type: application/json 
+
+{
+    "title":"Dark"
+}
+
+
+###
+DELETE http://localhost:3001/books/f0c5 HTTP/1.1
+Content-Type: application/json 
